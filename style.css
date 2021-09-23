@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    height: 100px;
+    font-size: 50px;
+    font-family: 'Koh Santepheap', cursive;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Koh Santepheap', cursive;
+    height: 100px;
+}
+span{
+    color: rgb(248, 132, 0) ;
+}
+.build{
+    font-size: 30px;
+    font-weight: bold;
+    height: 80px;
+    width: 500px;
+}
+.button{
+    text-decoration: none;
+    background-color:blanchedalmond ;
+    border: 3px ridge black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    background-color: tomato;
+    border-radius: 10px;
+   animation: button 3s ease-in-out infinite alternate;
+}
+
+p{
+    font-size: 20px;
+    height: 150px;
+    width: 500px;
+    
+}
+.pic{
+    width: 40vw;
+}
+.left{
+    width: 30vw;
+    height: 50vh;
+    margin-right: 150px;
+    position: relative;
+    top: 10%; 
+}
+.right{
+    height: 70vh;
+    position: relative;
+    top: 10%;  
+    
+}
+
+.container1{
+    display: flex;
+    height: 100vh;   
+}
+
+.topbanner{
+width: 10%;
+}
+@keyframes button{
+    0%{
+        background-color: burlywood;
+        font-weight: bold;
+    }
+    50%{
+        background-color: darkorange;
+        font-weight: bolder;
+    }
+    100%{
+        background-color: coral;
+        font-weight: 900;
+    }
+    
+}
+
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    height: 90vh; 
+    width: 80vw;
+}
+.right2{
+    height:50vh ;
+    width: 50vw;
+    position: relative;
+    left: 200px;
+    top: 100px;
+
+}
+.left2{
+    height: 100vh;
+    margin-left: 40px;
+}
+.img2{
+    height:40vw;
+
+}
+.part1{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Koh Santepheap', cursive;
+    position: relative;
+    bottom: 50px;
+
+}
+.container3{
+    height: 50vh;
+    display: flex;
+}
+.left3{
+    height: 50vh;
+    position: relative;
+    
+    top: 150px;
+}
+.middle{
+    padding: 0px 40px;
+    height: 40vh;
+    width: 40vw;
+    margin-right: 120px;
+    position: relative;
+    right: 30px;
+    border-left: 8px solid ;
+    border-image:linear-gradient(yellow ,tomato) ;
+    border-image-slice: 1;
+    box-shadow:10px 10px 20px rgb(131, 129, 129);
+}
+.right3{
+    height: 40vh;
+    width: 40vw;
+    position: relative;
+    left: 40px;
+    margin-right: 150px;
+    padding: 0px 40px;
+    border-left: 8px solid ;
+    border-image:linear-gradient(rgb(4, 0, 255),cyan);
+    border-image-slice:1 ;
+    box-shadow:10px 10px 20px rgb(131, 129, 129);
+    
+ } 
+.span{
+    font-size: 20px;
+    height: 50px;
+    color: rgb(248, 205, 14);
+    font-weight: 800;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+ }
+ .footer{
+     display: flex;
+     justify-content: center;
+     position: relative;
+     top: 40px;
+ }
+ 
+
+
